@@ -5,12 +5,12 @@ export class LessonType {
   @Field((type) => ID)
   id: string;
 
-  @Field()
+  @Field({ nullable: true })
   name: string;
 
-  @Field()
-  startDate: string;
+  @Field({ nullable: true })
+  startDate?: string;
 
   @Field()
-  endDate: string;
+  endDate?: string;
 }
