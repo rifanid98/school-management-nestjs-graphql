@@ -38,7 +38,9 @@
 
 - [Node.js](http://nodejs.org/) - JavaScript runtime environment
 - [NestJs](https://nestjs.com/) - Node.js framework
-- [MongoDB](https://www.mongodb.com/) Database
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript
+- [TypeORM](https://typeorm.io/) - TypeORM
+- [MongoDB](https://www.mongodb.com/) - Database
 
 ## Author
 
