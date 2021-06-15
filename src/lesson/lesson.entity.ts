@@ -11,9 +11,9 @@ export class Lesson {
   @Column()
   name: string;
 
-  @Column()
-  startDate: string;
+  @Column({ nullable: true })
+  startDate?: string;
 
-  @Column()
-  endDate: string;
+  @Column({ nullable: true })
+  endDate?: string;
 }
